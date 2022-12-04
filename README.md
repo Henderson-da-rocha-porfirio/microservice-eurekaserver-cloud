@@ -1,5 +1,10 @@
 # microservice-eurekaserver-cloud
 
+## Criar a imagem:
+````
+mvn spring-boot:build-image ou mvn spring-boot:build-image -DskipTest
+````
+
 ## @EnableEurekaServer
 > Esta anotação fará o projeto spring boot ou microserviço agir como um agente de descoberta de serviço.
 
